@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { product } from "./ProductData.json";
+
+import Product from "./Components/Product";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Product label={product.label} description={product.descriptions} />
+      {/* <div className="custommiser">
+        <input id="radio1" type="radio" name="processor" value="20" />
+        <label htmlFor="radio1">1Tb</label>
+
+        <input id="radio2" type="radio" name="processor" value="30" />
+        <label htmlFor="radio2">2Tb</label>
+      </div> */}
     </div>
   );
 }

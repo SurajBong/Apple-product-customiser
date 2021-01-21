@@ -1,0 +1,69 @@
+{
+  "product": {
+    "label": "16‑inch MacBook Pro - Space Grey",
+    "descriptions": [
+      "2.3GHz 8-core 9th-generation Intel Core i9 processor, Turbo Boost up to 4.8GHz",
+      "16GB 2666MHz DDR4 memory",
+      "AMD Radeon Pro 5500M with 4GB of GDDR6 memory",
+      "1TB SSD storage",
+      "16-inch Retina display with True Tone",
+      "Touch Bar and Touch ID Backlit Magic Keyboard - US English"
+    ]
+  },
+  "processor": [
+    {
+      "variantName": "2.3GHz 8-core 9th-generation Intel Core i9 processor, Turbo Boost up to 4.8GHz",
+      "price": 0
+    },
+    {
+      "variantName": "2.4GHz 8-core 9th-generation Intel Core i9 processor, Turbo Boost up to 5.0GHz",
+      "price": 20000
+    }
+  ],
+  "memory": [
+    {
+      "variantName": "16GB 2666MHz DDR4 memory",
+      "price": 0
+    },
+    {
+      "variantName": "32GB 2666MHz DDR4 memory",
+      "price": 40000
+    },
+    {
+      "variantName": "64GB 2666MHz DDR4 memory",
+      "price": 80000
+    }
+  ],
+  "graphics": [
+    {
+      "variantName": "AMD Radeon Pro 5500M with 4GB of GDDR6 memory",
+      "price": 0
+    },
+    {
+      "variantName": "AMD Radeon Pro 5500M with 8GB of GDDR6 memory",
+      "price": 10000
+    },
+    {
+      "variantName": "AMD Radeon Pro 5600M with 8GB of HBM2 memory",
+      "price": 70000
+    }
+  ],
+  "storage": [
+    {
+      "variantName": "1TB SSD storage",
+      "price": 0
+    },
+    {
+      "variantName": "2TB SSD storage",
+      "price": 40000
+    },
+    {
+      "variantName": "4TB SSD storage",
+      "price": 100000
+    },
+    {
+      "variantName": "8TB SSD storage",
+      "price": 220000
+    }
+  ]
+}
